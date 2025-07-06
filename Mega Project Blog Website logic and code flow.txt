@@ -1,0 +1,3 @@
+Mega Project Blog Website 
+Flow and logical step by step process
+1. Using Appwrite for backend
