@@ -3,7 +3,7 @@ import appwriteService from "../appwrite/config";
 import { Container, PostCard } from "../components";
 
 function Home() {
-  const [post, setPosts] = useState();
+  const [posts, setPosts] = useState([]);
 
   useEffect(() => {
     appwriteService.getPost().then((posts) => {
